@@ -1,0 +1,187 @@
+body{
+    background: #01e37f;
+}
+.card{
+    background: white;
+    width: 500px;
+    height: 450px;
+    margin-top: 70px;
+    display: flex;
+   
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.section1{
+    width: 250px;
+    height: 350px;
+    background: #B2e939;
+    margin-top: 50px;
+    margin-left: -50px;
+    box-shadow: 2px 2px 3px 3px #EAEAEA;
+    border-radius: 10px;
+}
+
+.section1 img{
+    width: 250px;
+    height: 250px;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+.sectionfooter{
+    background: white;
+    height: 50px;
+    margin-top: 26px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #B2e939;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.box img{
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.section2{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.section2 p{
+    font-size: 12px;
+}
+.cont{
+    display: flex;
+    margin-top: 30px;
+}
+.c2{
+    margin-top: -50px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: #ff3f40;
+}
+.c1{
+    margin-top: 10px;
+    color: #ff3f40;
+}
+
+.colorselect{
+    margin-top: -30px;
+}
+.boxes{
+    display: flex;
+}
+.b{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.b img{
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+}
+.active{
+    border: 1px solid #ff3f40;
+    border-radius: 2px;
+}
+.section2 ul li{
+    font-size: 12px;
+    margin-left: -30px;
+}
+
+.section2 button{
+    background: #ff3f40;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.benefits{
+    margin-top: 30px;
+}
+
+.mobilecard{
+    display: none;
+}
+
+/* mobile screen */
+
+@media only screen and (min-width:10px) and (max-width:650px){
+    .card{
+        display: none;
+    }
+    .mobilecard{
+        width: 350px;
+        height: 400px;
+        background: white;
+        display: block;
+    }
+    .sec1{
+         background: #B2e939;
+         height: 200px;
+        display: flex;
+        justify-content: center;
+    } 
+
+    .mainapple{
+        width: 180px;
+        height: 180px;
+        border: 2px solid white;
+    }
+    .mainapple img{
+        width: 200px;
+        height: 200px;
+        margin-left: -30px;
+        margin-top: -10px;
+    }
+    .selectapple .box{
+        border: 1px solid white;
+    }
+
+    .mainapple, .selectapple{
+        margin-top: 10px;
+    }
+
+    .sec2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobilebtn button{
+        padding: 10px 10px 10px 10px;
+        background: #ff3f40;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        margin-left: 20px;
+    }
+
+    .mobilebtn button:hover{
+        background: gray;
+        transition:0.5s;
+        color: #ff3f40;
+    }
+
+}
